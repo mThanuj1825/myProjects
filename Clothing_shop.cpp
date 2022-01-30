@@ -16,7 +16,6 @@ void billFooter(int totalCost);
 int main()
 {
     int option, quantity, shirtCost = 0, pantCost = 0, tShirtCost = 0, trousersCost = 0, totalCost = 0;
-    time_t timeForDisplay;
 buy:
     system("clear");
     showOptions();
